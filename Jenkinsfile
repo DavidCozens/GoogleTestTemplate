@@ -13,7 +13,7 @@ pipeline {
     }
   }
   post {
-    success {
+    always {
       xunit thresholds: [failed(failureThreshold: '0')], tools: [GoogleTest(excludesPattern: '', pattern: '*.out.xml', stopProcessingIfError: true)]
     }
     cleanup {
