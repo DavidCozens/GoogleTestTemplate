@@ -14,7 +14,7 @@ pipeline {
   }
   post {
     success {
-      xunit thresholds: [failed(failureThreshold: '0')], tools: [GoogleTest(excludesPattern: '', pattern: '*.out.xml', stopProcessingIfError: true)]archiveArtifacts artifacts: '*.epub,*.pdf', followSymlinks: false
+      xunit thresholds: [failed(failureThreshold: '0')], tools: [GoogleTest(excludesPattern: '', pattern: '*.out.xml', stopProcessingIfError: true)]
     }
     cleanup {
       cleanWs()
