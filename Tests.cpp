@@ -2,5 +2,5 @@
 
 TEST(Example, ShouldFail)
 {
-    FAIL()<<"Start Here!";
+    //FAIL()<<"Start Here!";
 }
