@@ -1,6 +1,0 @@
-make build --dry-run --keep-going --print-directory
-make: Entering directory '/workspaces/GoogleTestTemplate'
- 
-make: Nothing to be done for 'build'.
-make: Leaving directory '/workspaces/GoogleTestTemplate'
- 
